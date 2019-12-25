@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &13647890138956217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 13647890138956223}
+  - component: {fileID: 13647890138956222}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &13647890138956223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13647890138956217}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &13647890138956222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13647890138956217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d01db37305ed4488ecc00e48d1604f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seasonSpeed: 0.02
+  seasonLerpSmoth: 1
+  treeFadeSpeed: 1
+  normalTreeColor: {r: 0.31873083, g: 0.6320754, b: 0.28920433, a: 1}
+  autumnTreeColor: {r: 0.9150943, g: 0.38232878, b: 0.10791205, a: 1}
+  normalGrassColor: {r: 0.09985313, g: 0.8301887, b: 0.06657174, a: 1}
+  winterGrassColor: {r: 1, g: 1, b: 1, a: 0}
+  Leaves: {fileID: 2100000, guid: 561d82557316b7540bc4768adab57cd0, type: 2}
+  Grass: {fileID: 2100000, guid: e26154725569733468b2507f91084821, type: 2}
+  fatSlider: {fileID: 0}
+  seasonSlider: {fileID: 0}
+  seasonFill: {fileID: 0}
+  blackImage: {fileID: 0}
+  fallenLeaves:
+  - {fileID: 0}
